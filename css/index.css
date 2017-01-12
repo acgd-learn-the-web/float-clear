@@ -18,18 +18,18 @@ Clearing allows us to tell specific elements on the page to be displayed below f
  */
 
 p {
-	background-color: #0f0;
-	border: 5px solid #000;
+  background-color: #0f0;
+  border: 5px solid #000;
 }
 
 div {
-	background-color: rgba(255,0,0,0.5);
-	padding: 1em;
-	float: left; /* right, none */
-	margin-right: 0.5em;
-	width: 5em;
+  background-color: rgba(255,0,0,0.5);
+  padding: 1em;
+  float: left; /* right, none */
+  margin-right: 0.5em;
+  width: 5em;
 }
 
 .second-p {
-	clear: both; /* left, right */
+  clear: both; /* left, right */
 }
